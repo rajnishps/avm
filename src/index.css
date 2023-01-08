@@ -195,3 +195,14 @@ hr {
 #big-degree {
   color: var(--white);
 }
+
+@media only screen and (max-width: 680px) {
+  .card-wrapper {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 680px) and (max-width: 980px) {
+  .card-wrapper {
+    width: calc(48%);
+  }
+}
