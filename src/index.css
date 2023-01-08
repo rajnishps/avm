@@ -1,0 +1,197 @@
+:root {
+  --blue: #5448c8;
+  --green: #6dd0a5;
+  --orange: #d0aa6d;
+  --black: #2d2d2d;
+  --grey: #999999;
+  --dark-grey: #6e6e6e;
+  --light-grey: #ececec;
+  --white: #ffffff;
+}
+@font-face {
+  font-family: "Rota-Black";
+  src: url("./assets/Rota/Rota-Black.otf");
+}
+@font-face {
+  font-family: "Rota-Bold";
+  src: url("./assets/Rota/Rota-Bold.otf");
+}
+@font-face {
+  font-family: "Rota-Medium";
+  src: url("./assets/Rota/Rota-Medium.otf");
+}
+@font-face {
+  font-family: "Rota-Regular";
+  src: url("./assets/Rota/Rota-Regular.otf");
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+  height: 100%;
+  font-family: "Rota-Black", monospace, Courier;
+}
+
+body {
+  font-size: 1.6rem;
+  min-height: 100%;
+}
+.logo-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+}
+.logo-block > img {
+  height: 7vh;
+}
+.all-cards {
+  margin: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+.card-wrapper {
+  background: var(--light-grey);
+  display: flex;
+  flex-direction: column;
+  min-width: 30rem;
+  width: 30vw;
+  height: 20rem;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+.card-head {
+  font-size: 2.4rem;
+  font-family: "Rota-Black", monospace, Courier;
+  padding-left: 1.6rem;
+}
+.txt-block {
+  flex-grow: 1;
+  display: flex;
+}
+.third-txt-block {
+  display: flex;
+  flex-grow: 1;
+  padding: 1rem;
+}
+.card-start {
+  font-size: 8.4rem;
+  display: flex;
+  align-items: end;
+  color: var(--blue);
+}
+.card-middle {
+  display: flex;
+  flex-grow: 0;
+  color: var(--light-grey);
+  font-size: 2.4rem;
+  flex-grow: 1;
+  height: 4rem;
+  padding: 1rem;
+  text-transform: uppercase;
+  justify-content: center;
+  border-radius: 0.8rem;
+  background: var(--green);
+  margin: 2rem;
+}
+.card-end {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: var(--grey);
+}
+.card-end > h5 {
+  color: var(--dark-grey);
+  font-size: 3.2rem;
+  font-family: "Rota-Black", Courier, monospace;
+}
+.card-end > h6 {
+  font-family: "Rota-Medium", Courier, monospace;
+  font-size: 1.2rem;
+}
+.forth-txt-block {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.card-start-4 {
+  color: var(--blue);
+  padding-top: 4rem;
+}
+.big-10 {
+  font-size: 7.2rem;
+}
+.div-by {
+  font-size: 2.4rem;
+}
+.vr {
+  border-left: 1px solid var(--grey);
+  height: 50%;
+}
+.time > h6 {
+  padding-top: 4rem;
+  font-family: "Rota-Regular", Courier, monospace;
+  color: var(--grey);
+}
+.time > h5 {
+  font-family: "Rota-Black", Courier, monospace;
+  font-size: 2.8rem;
+  display: flex;
+  color: var(--dark-grey);
+}
+.big-txt {
+  margin: 0.6rem 1rem;
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--green);
+  width: 12rem;
+  border-radius: 9999px;
+  font-size: 6.4rem;
+  font-family: "Rota-Black", monospace, Courier;
+}
+#big-21 {
+  background: var(--blue);
+}
+
+.small-txt-block {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.small-txt-block > h4 {
+  font-size: 4.2rem;
+  color: var(--grey);
+}
+.small-txt-block > h4 > span {
+  font-size: 2.4rem;
+}
+.up-arrow {
+  color: var(--green);
+}
+.down-arrow {
+  color: var(--orange);
+}
+hr {
+  width: 100%;
+}
+.degree {
+  font-family: "Rota-Regular", monospace, Courier;
+  padding-top: 1.2rem;
+  font-size: 3.2rem;
+  color: var(--grey);
+}
+#big-degree {
+  color: var(--white);
+}
